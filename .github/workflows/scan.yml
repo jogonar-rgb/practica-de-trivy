@@ -9,7 +9,6 @@ name: Security - Docker - Scan
 
 on: [pull_request] #
 
-
 jobs:
   scan:
     name: Escanear Docker Imágenes
